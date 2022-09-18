@@ -8,6 +8,8 @@
 <%@include file="AllComponent/allCSS.jsp"%>
 </head>
 <body>
-     <h1>hello dear</h1> 
+    
+    <%@include file="AllComponent/navigation.jsp" %>
+     
 </body>
 </html>
