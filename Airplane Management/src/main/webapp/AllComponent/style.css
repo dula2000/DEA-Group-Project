@@ -4,5 +4,13 @@
 .navbar .nav-item:hover .nav-link{
 	background-color: white;
 	color: black;
-	border-radius: 100px;	
+	border-radius: 10px;	
+	padding: 10px;  /*Change if you want*/
+	margin-left: 20px;    /*I think this isn't work*/
+}
+
+.navbar .btn-success{
+	background-color:#00e676;  /*Change if you want*/
+	font-size: 15px;
+    font-weight: bold;
 }

@@ -1,3 +1,5 @@
+
+<!-- Navigation bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
   <a class="navbar-brand" href="#">PHOENIX AIRLINE</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -6,7 +8,7 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-plane"></i>Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-plane"> </i> Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Features</a>
@@ -27,8 +29,9 @@
     </ul>
   </div>
   <!-- Adding Login button  -->
-  <div class="col-md-3">
-  <a href="" class="btn btn-success">LOGIN</a>
+  <div class="col-md-1">
+  <a href="login.jsp" class="btn btn-success"><i class="fa-regular fa-right-to-bracket"></i> LOGIN</a>
+  
   
   </div>
 </nav>
