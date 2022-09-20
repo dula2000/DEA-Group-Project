@@ -186,30 +186,30 @@ h2 {
   font-size: 36px; }
 
 .main {
-  background: #f8f8f8;
+  background: #9fa8da;
   padding: 50px 0; }
 
 .clear {
   clear: both; }
 
 body {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.8;
-  color: #222;
-  background: #f8f8f8;
+  color: #880e4f;
+  background: #c0c0c0;
   font-weight: 400;
   font-family: Poppins; }
 
 .container {
   width: 900px;
-  background: #fff;
+  background: #ffffff;   /*podi kotuwe colors change krna eka*/
   margin: 0 auto;
   box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
   -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
   -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
-  border-radius: 20px;
+  border-radius: 90px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   -o-border-radius: 20px;
@@ -264,9 +264,9 @@ body {
 
 .form-title {
   margin-bottom: 33px; }
-
+/*registration form eke image eka*/
 .signup-image {
-  margin-top: 45px; }
+  margin-top: 145px; }
 
 figure {
   margin-bottom: 50px;
@@ -293,10 +293,18 @@ figure {
   margin-top: 16px; }
 
 .signup-image-link {
-  font-size: 14px;
+  font-size: 15px;
   color: #222;
   display: block;
   text-align: center; }
+
+.signup-image-link2{
+	 font-size: 15px;
+  color: #b71c1c;
+  display: block;
+  text-align: center;
+  margin-top: 185px;
+}  
 
 .term-service {
   font-size: 13px;
@@ -509,11 +517,11 @@ label.valid {
 .signin-form {
   margin-right: 90px;
   margin-left: 80px; }
-
+/*Login page image*/
 .signin-image {
-  margin-left: 110px;
+  margin-left: 80px;
   margin-right: 20px;
-  margin-top: 10px; }
+  margin-top: 120px; }
 
 @media screen and (max-width: 1200px) {
   .container {

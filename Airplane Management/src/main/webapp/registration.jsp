@@ -64,10 +64,15 @@
 					</div>
 					<div class="signup-image">
 						<figure>
-							<img src="images/signup-image.jpg" alt="sing up image">
+							<img src="images/login-plane1.jpg" alt="sing up image">
 						</figure>
 						<a href="login.jsp" class="signup-image-link">I am already
 							member</a>
+							<!-- registration for staff members -->
+							<a href="" class="signup-image-link2">Register as staff 
+							members</a>
+							
+						
 					</div>
 				</div>
 			</div>
