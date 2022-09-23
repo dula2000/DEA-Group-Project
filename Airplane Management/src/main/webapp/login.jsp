@@ -82,7 +82,7 @@
 <script type="text/javascript">
 var status= document.getElementById("status").value;
 if(status == "failed"){
-	swal("Wrong Username or Password","failed");
+	swal("Wrong Username or Password","error");
 }
 
 </script>

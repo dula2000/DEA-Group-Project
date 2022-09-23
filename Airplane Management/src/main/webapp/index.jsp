@@ -2,11 +2,7 @@
     pageEncoding="ISO-8859-1"%>
     <!-- Change the location if you want -->
     
-    <%
-     if(session.getAttribute("name")==null){
-    	 response.sendRedirect("login.jsp");
-     }
-    %>
+
     
 <!DOCTYPE html>
 <html>
@@ -18,6 +14,11 @@
 <body>
     
     <%@include file="AllComponent/navigation.jsp" %>
+        <%
+     if(session.getAttribute("name")==null){
+    	 response.sendRedirect("login.jsp");
+     }
+    %>
      
 </body>
 </html>

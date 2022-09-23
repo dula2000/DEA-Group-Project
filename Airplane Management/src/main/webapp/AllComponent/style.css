@@ -11,6 +11,7 @@
 
 .navbar .btn-success{
 	background-color:#00e676;  /*Change if you want*/
-	font-size: 15px;
+	font-size: 20px;
     font-weight: bold;
+  width:100px;
 }

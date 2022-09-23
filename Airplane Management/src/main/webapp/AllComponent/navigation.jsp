@@ -26,12 +26,20 @@
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
+      
     </ul>
   </div>
-  <!-- Adding Login button  -->
-  <div class="col-md-1">
-  <a href="login.jsp" class="btn btn-success"><i class="fa-regular fa-right-to-bracket"></i> LOGIN</a>
+  <!-- Adding Login & logout button  -->
+   
+     <div class="col-md-1.5 bg-danger">
+  <a href="logout" class="btn btn-success"> <%=session.getAttribute("name") %> </a>
   
+    </div> 
+     
+      
+  <div class="col-md-1">
+  <a href="login.jsp" class="btn btn-success"><i class="fa-solid fa-arrow-right-to-bracket"></i> LOGIN</a>
   
   </div>
+   
 </nav>
