@@ -70,7 +70,7 @@ nav .menu-items{
 	position: relative;
 }
 
-.menu-items li a:hover:before{
+.nal-links li a:hover:before{
 	content: "";
 	position: absolute;
 	height: 5px;
