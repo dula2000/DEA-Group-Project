@@ -21,3 +21,4 @@
 	crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <link rel="stylesheet" href="AllComponent/Style.css">
+<link rel="stylesheet" href="AllComponent/Style.css">
