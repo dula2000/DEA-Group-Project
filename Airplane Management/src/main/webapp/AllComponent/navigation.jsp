@@ -30,7 +30,7 @@
     </ul>
   </div>
   <!-- Adding Login & logout button  -->
-   
+    
      <div class="col-md-1.5 bg-danger">
   <a href="logout" class="btn btn-success"> <%=session.getAttribute("name") %> </a>
   

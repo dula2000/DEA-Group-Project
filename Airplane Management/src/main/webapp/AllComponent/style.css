@@ -10,8 +10,8 @@
 }
 
 .navbar .btn-success{
-	background-color:#00e676;  /*Change if you want*/
-	font-size: 20px;
+	background-color:rgb(0, 255, 64);  /*Change if you want*/
+	font-size: 10px;
     font-weight: bold;
-  width:100px;
+    width:120px;
 }
