@@ -8,10 +8,10 @@
 <%@include file="AllComponent/allCSS.jsp"%>
 </head>
 <body>
-    <%@include file="AllComponent/navigation.jsp" %>
+
         <%
      if(session.getAttribute("name")==null){
-    	 response.sendRedirect("login.jsp");
+    	 response.sendRedirect("admin.jsp");
      }
     %>
      
