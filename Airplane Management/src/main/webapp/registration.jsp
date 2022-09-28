@@ -23,7 +23,7 @@
 			<div class="container">
 				<div class="signup-content">
 					<div class="signup-form">
-						<h2 class="form-title">Sign up</h2>
+						<h2 class="form-title">Sign In</h2>
 					
 						<form method="post" action="RegistrationServlet" class="register-form"
 							id="register-form">
