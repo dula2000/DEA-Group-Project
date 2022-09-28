@@ -9,7 +9,11 @@
 </head>
 <body>
 
-	
-     
+        <%
+     if(session.getAttribute("name")==null){
+    	 response.sendRedirect("admin.jsp");
+     }
+    %>
+    
 </body>
 </html>
