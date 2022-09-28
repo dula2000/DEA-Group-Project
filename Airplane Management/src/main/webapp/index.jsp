@@ -9,11 +9,15 @@
 </head>
 <body>
 
+<<<<<<< HEAD
         <%
      if(session.getAttribute("name")==null){
     	 response.sendRedirect("admin.jsp");
      }
     %>
+=======
+	
+>>>>>>> branch 'main' of https://github.com/dula2000/DEA-Group-Project.git
      
 </body>
 </html>
