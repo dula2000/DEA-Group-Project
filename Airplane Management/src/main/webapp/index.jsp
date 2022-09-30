@@ -9,9 +9,9 @@
 </head>
 <body>
 
-        <%
+        <% 
      if(session.getAttribute("name")==null){
-    	 response.sendRedirect("admin.jsp");
+    	 response.sendRedirect("login.jsp");
      }
     %>
     
