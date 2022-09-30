@@ -9,14 +9,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.tomcat.dbcp.dbcp2.Jdbc41Bridge;
+import org.apache.tomcat.jni.User;
 
 import com.xadmin.usermanagement.bean.user;
 
 public class UserDao {
-       private String URL ="jdbc:mysql://localhost:3306/dea?useSSL=false";
-       private String username = "root";
-       private String password =" ";
-       private String jdbcDriver ="com.mysql.jdbc.Driver";
+       private static String URL ="jdbc:mysql://localhost:3306/dea?useSSL=false";
+       private static String username = "root";
+       private static String password =" ";
+       private static String jdbcDriver ="com.mysql.jdbc.Driver";
        
        private static final String INSERT_USERS_SQL = "INSERT INTO registration" + "  (UserName, Email,Mobile ) VALUES "
    			+ " (?, ?, ?);";
@@ -30,7 +31,7 @@ public class UserDao {
    	public UserDao() {
 	}
 
-	protected Connection getConnection() {
+	protected static Connection getConnection() {
 		Connection connection = null;
 		try {
 			Class.forName(jdbcDriver);
@@ -45,7 +46,7 @@ public class UserDao {
 		return connection;
 	}
 	
-	public void insertUser(user user) throws SQLException {
+	public static void insertUser(user user) throws SQLException {
 		System.out.println(INSERT_USERS_SQL);
 		// try-with-resource statement will auto close the connection.
 		try (Connection connection = getConnection();
@@ -59,7 +60,7 @@ public class UserDao {
 			printSQLException(e);
 		}
 	}
-	public user selectUser(int id) {
+	public static user selectUser(int id) {
 		user user = null;
 		// Step 1: Establishing a Connection
 		try (Connection connection = getConnection();
@@ -84,7 +85,7 @@ public class UserDao {
 		return user;
 	}
 	
-	public List<user> selectAllUsers() {
+	public static  List<user> selectAllUsers() {
 
 		// using try-with-resources to avoid closing resources (boiler plate code)
 		List<user> users = new ArrayList<>();
@@ -111,7 +112,7 @@ public class UserDao {
 		return users;
 	}
 	
-	public boolean deleteUser(int id) throws SQLException {
+	public static boolean deleteUser(int id) throws SQLException {
 		boolean rowDeleted;
 		try (Connection connection = getConnection();
 				PreparedStatement statement = connection.prepareStatement(DELETE_USERS_SQL);) {
@@ -121,7 +122,7 @@ public class UserDao {
 		return rowDeleted;
 	}
 	
-	public boolean updateUser(user user) throws SQLException {
+	public static boolean updateUser(user user) throws SQLException {
 		boolean rowUpdated;
 		try (Connection connection = getConnection();
 				PreparedStatement statement = connection.prepareStatement(UPDATE_USERS_SQL);) {
@@ -136,7 +137,7 @@ public class UserDao {
 		return rowUpdated;
 	}
 	
-	private void printSQLException(SQLException ex) {
+	private static void printSQLException(SQLException ex) {
 		for (Throwable e : ex) {
 			if (e instanceof SQLException) {
 				e.printStackTrace(System.err);
