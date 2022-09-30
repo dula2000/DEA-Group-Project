@@ -24,4 +24,8 @@
     background: var(--main-color);
 }
 
-.main
+
+
+.main-content{
+    margin-left: 345px;
+}
