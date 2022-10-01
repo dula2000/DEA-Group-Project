@@ -30,6 +30,23 @@
     color: #fff;
 }
 
+.sidebar-brand span{
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.sidebar-manu li {
+    width: 100%;
+    margin-bottom: 1.7rem;
+    padding-left: 2rem;
+}
+
+.sidebar-manu a{
+    display: block;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
 .main-content{
-    margin-left: 345px;
+    margin-left: 345px ;
 }
