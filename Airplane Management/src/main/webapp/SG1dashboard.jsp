@@ -37,7 +37,7 @@
                  <i class="uil uil-estate"></i>
                  <span class="link-name">Dashboard</span>
              </a></li>
-              <li><a href="AllComponent/SD1User.jsp
+              <li><a href="SD1User.jsp
               ">
                  <i class="uil uil-house-user"></i>
                  <span class="link-name">User Dashboard</span>
