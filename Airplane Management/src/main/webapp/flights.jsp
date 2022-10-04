@@ -59,7 +59,7 @@
                                 <div class="sb-sidenav-collapse-arrow"></div>
                             </a>
 
-                              <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                              <a class="nav-link collapsed" href="tickets.jsp" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
                                 <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                                 Tickets
                                 <div class="sb-sidenav-collapse-arrow"></div>
@@ -82,33 +82,37 @@
                       
                         <div class="row">
                             <div class="col-xl-6">
+                            
                                 <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-area me-1"></i>
-                                       No. of sessions takes by Users
+                                <div class="card-header">
+                                       
+                                       Flight World Map
                                     </div>
-                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                                   <img src="images/fliight image2.jpg" style="width:610px;height:320px;">
+
                                 </div>
                             </div>
                             <div class="col-xl-6">
                                 <div class="card mb-4">
                                     <div class="card-header">
-                                        <i class="fas fa-chart-bar me-1"></i>
-                                       No. Of Users
+                                        
+                                       Departures
                                     </div>
-                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+                                      <img src="images/departures.jpg" style="width:610px;height:320px;">
+                                   
                                 </div>
                             </div>
                         </div>
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
-                              Users
+                              Flight Informations  
+                              <button type="button" style="margin-left:850px;  background-color:#d50000;"><b> + Add New</b> </button>                    
                             </div>
                             <div class="card-body">
                                 <table  id="datatablesSimple">
                                     <thead >
-                                        <tr>
+                                        <tr >
                                             <th>FlightID</th>
                                             <th>From</th>
                                             <th>To</th>
@@ -125,9 +129,9 @@
                                             <td>Male</td>
                                             <td>150</td>
                                             <td>Mr.Wilson Senadhi</td>
-                                            <td><button class="button12 button1" type="button">Block</button>
+                                            <td><button class="button12 button1" type="button">Delete</button>
                                             <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                            <button class="button12 button123" type="button">View Details</button>
                                             </td>
                                             
                                         </tr>
@@ -137,9 +141,9 @@
                                             <td>Colombo
                                             <td>100</td>
                                             <td>Mr.HIB Rajapaksha</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
+                                             <td><button class="button12 button1" type="button">Delete</button>
                                             <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                            <button class="button12 button123" type="button">View Details</button>
                                             </td>
                                             
                                
@@ -150,9 +154,9 @@
                                             <td>Chennai</td>
                                             <td>70</td>
                                             <td>Mr. KGSSU Weerasinghe</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
+                                             <td><button class="button12 button1" type="button">Delete</button>
                                             <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                            <button class="button12 button123" type="button">View Details</button>
                                             </td>
                                             
                                             
@@ -163,9 +167,9 @@
                                             <td>LA</td>
                                             <td>20</td>
                                             <td>Mr. Dani Leewanage</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
+                                             <td><button class="button12 button1" type="button">Delete</button>
                                             <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                            <button class="button12 button123" type="button">View Details</button>
                                             </td>
                                             
                                             
@@ -176,9 +180,9 @@
                                             <td>Colombo</td>
                                             <td>200</td>
                                             <td>Mr.Madawa De Silva </td>
-                                             <td><button class="button12 button1" type="button">Block</button>
+                                             <td><button class="button12 button1" type="button">Delete</button>
                                             <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                            <button class="button12 button123" type="button">View Details</button>
                                             </td>
                                             
                                             
