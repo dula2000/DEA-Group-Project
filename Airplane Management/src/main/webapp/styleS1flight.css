@@ -93,12 +93,12 @@ body {
 .button12{
 	  border: none;
   color: white;
-  padding: 2px 15px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-  margin: 4px 10px;
+  margin: 10px  20px;
   cursor: pointer;
   background-color:#3f51b5 ;
 }
@@ -4547,19 +4547,20 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
+  min-width: 10px;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #004080;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
+ 
 }
 .card > hr {
   margin-right: 0;
   margin-left: 0;
 }
 .card > .list-group {
-  border-top: inherit;
+  border-top: 0;
   border-bottom: inherit;
 }
 .card > .list-group:first-child {
@@ -4579,7 +4580,7 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 2rem 2rem;
 }
 
 .card-title {
@@ -11635,7 +11636,7 @@ body {
 
 /* TABLE */
 .dataTable-table {
-  border-collapse: collapse;
+ text-align: center;
 }
 
 .dataTable-table > tbody > tr > td,
@@ -11646,11 +11647,12 @@ body {
 .dataTable-table > thead > tr > th {
   vertical-align: top;
   padding: 0.2rem 0.2rem;
+  width:10px;
 }
 
 .dataTable-table > thead > tr > th {
   vertical-align: bottom;
-  text-align: left;
+  text-align: center;
   border-bottom: none;
 }
 
@@ -11661,7 +11663,7 @@ body {
 
 .dataTable-table th {
   vertical-align: bottom;
-  text-align: left;
+  text-align: center;
 }
 
 .dataTable-table th a {
