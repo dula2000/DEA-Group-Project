@@ -9,9 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Dashboard - SB Admin</title>
+        <title>Flights</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="stylesS1.css" rel="stylesheet" type="text/css" />
+        <link href="styleS1flight.css" rel="stylesheet" type="text/css" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
@@ -47,7 +47,7 @@
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading"></div>
                           
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <a class="nav-link collapsed" href="SD1User.jsp" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 User Dashboard
                                 <div class="sb-sidenav-collapse-arrow"></div>
@@ -75,7 +75,7 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">User Dashboard</h1>
+                        <h1 class="mt-4">Flight Informations</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
@@ -106,24 +106,25 @@
                               Users
                             </div>
                             <div class="card-body">
-                                <table id="datatablesSimple">
-                                    <thead>
+                                <table  id="datatablesSimple">
+                                    <thead >
                                         <tr>
-                                            <th>UID</th>
-                                            <th>Name</th>
-                                            <th>Email</th>
-                                            <th>Mobile Number</th>
-                                            <th></th>
+                                            <th>FlightID</th>
+                                            <th>From</th>
+                                            <th>To</th>
+                                            <th>No. of Seats</th>
+                                            <th>Chief Pilot Name</th>
                                             
                                         </tr>
                                     </thead>
                                    
                                     <tbody>
                                         <tr>
-                                            <td>1</td>
-                                            <td>Dulanja De Silva</td>
-                                            <td>dulanjadilshan@gmail.com</td>
-                                            <td>0701013986</td>
+                                            <td>F001</td>
+                                            <td>Colombo</td>
+                                            <td>Male</td>
+                                            <td>150</td>
+                                            <td>Mr.Wilson Senadhi</td>
                                             <td><button class="button12 button1" type="button">Block</button>
                                             <button class="button12 button1" type="button">Update</button>
                                             <button class="button12 button123" type="button">View Profile</button>
@@ -131,10 +132,11 @@
                                             
                                         </tr>
                                         <tr>
-                                            <td>2</td>
-                                            <td>Umaya Weerasinghe</td>
-                                            <td>umaya@gmail.com</td>
-                                            <td>0712354321</td>
+                                            <td>F002</td>
+                                            <td>Bali</td>
+                                            <td>Colombo
+                                            <td>100</td>
+                                            <td>Mr.HIB Rajapaksha</td>
                                              <td><button class="button12 button1" type="button">Block</button>
                                             <button class="button12 button1" type="button">Update</button>
                                             <button class="button12 button123" type="button">View Profile</button>
@@ -143,10 +145,11 @@
                                
                                         </tr>
                                         <tr>
-                                            <td>3</td>
-                                            <td>Kavindu Jayalal</td>
-                                            <td>kavindu@gmail.com</td>
-                                            <td>0775431234</td>
+                                            <td>F003</td>
+                                            <td>Hambantota</td>
+                                            <td>Chennai</td>
+                                            <td>70</td>
+                                            <td>Mr. KGSSU Weerasinghe</td>
                                              <td><button class="button12 button1" type="button">Block</button>
                                             <button class="button12 button1" type="button">Update</button>
                                             <button class="button12 button123" type="button">View Profile</button>
@@ -155,10 +158,11 @@
                                             
                                         </tr>
                                         <tr>
-                                            <td>4</td>
-                                            <td>Sasini De Silva</td>
-                                            <td>sasinidesilva@gmail.com</td>
-                                            <td>0786543456</td>
+                                            <td>F004</td>
+                                            <td>Colombo</td>
+                                            <td>LA</td>
+                                            <td>20</td>
+                                            <td>Mr. Dani Leewanage</td>
                                              <td><button class="button12 button1" type="button">Block</button>
                                             <button class="button12 button1" type="button">Update</button>
                                             <button class="button12 button123" type="button">View Profile</button>
@@ -167,10 +171,11 @@
                                             
                                         </tr>
                                         <tr>
-                                            <td>5</td>
-                                            <td>Kaveesha Jayakodi</td>
-                                            <td>kaveeshajayakodi@gmail.com</td>
-                                            <td>0723456789</td>
+                                            <td>F005</td>
+                                            <td>Male</td>
+                                            <td>Colombo</td>
+                                            <td>200</td>
+                                            <td>Mr.Madawa De Silva </td>
                                              <td><button class="button12 button1" type="button">Block</button>
                                             <button class="button12 button1" type="button">Update</button>
                                             <button class="button12 button123" type="button">View Profile</button>
@@ -178,18 +183,7 @@
                                             
                                             
                                         </tr>
-                                        <tr>
-                                            <td>6</td>
-                                            <td>Ahinsa Dedunu</td>
-                                            <td>ahinsadedunu@gmail.com</td>
-                                            <td>0761235678</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
-                                            </td>
-                                            
-                                            
-                                        </tr>
+                                      
                                        <!--  <tr>
                                             <td>Herrod Chandler</td>
                                             <td>Sales Assistant</td>
