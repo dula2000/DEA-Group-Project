@@ -90,6 +90,20 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.table1{
+	 border-collapse: collapse;
+  width: 100%;
+   border: 2px solid black;
+}
+
+.table1 th.aa{
+	width:5%;
+}
+
+.table1 th.aaaa{
+	width:10%;
+}
+
 .button12{
 	  border: none;
   color: white;
@@ -344,7 +358,7 @@ tfoot,
 tr,
 td,
 th {
-  border-color: inherit;
+  border-collapse: collapse;
   border-style: solid;
   border-width: 0;
 }
@@ -1994,7 +2008,7 @@ progress {
 .table > :not(caption) > * > *, .dataTable-table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
   background-color: var(--bs-table-bg);
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
   box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
 .table > tbody, .dataTable-table > tbody {
@@ -4551,8 +4565,8 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #ffffff;
   background-clip: border-box;
-  border: 3px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.5rem;
+  border: 5px solid #000000;;
+  border-radius: 1rem;
  
 }
 .card > hr {
@@ -11636,7 +11650,7 @@ body {
 
 /* TABLE */
 .dataTable-table {
- text-align: center;
+
 }
 
 .dataTable-table > tbody > tr > td,
@@ -11653,7 +11667,7 @@ body {
 .dataTable-table > thead > tr > th {
   vertical-align: bottom;
   
-  border-bottom: none;
+  
 }
 
 .dataTable-table > tfoot > tr > th {
