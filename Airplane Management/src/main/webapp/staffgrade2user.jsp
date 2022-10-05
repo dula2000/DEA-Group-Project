@@ -68,7 +68,7 @@
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                      StaffGrade1
+                      StaffGrade2
                     </div>
                 </nav>
             </div>
@@ -124,8 +124,7 @@
                                             <td>Dulanja De Silva</td>
                                             <td>dulanjadilshan@gmail.com</td>
                                             <td>0701013986</td>
-                                            <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
+                                            <td>                
                                             <button class="button12 button123" type="button">View Profile</button>
                                             </td>
                                             
@@ -135,8 +134,7 @@
                                             <td>Umaya Weerasinghe</td>
                                             <td>umaya@gmail.com</td>
                                             <td>0712354321</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
+                                          <td>
                                             <button class="button12 button123" type="button">View Profile</button>
                                             </td>
                                             
@@ -147,8 +145,7 @@
                                             <td>Kavindu Jayalal</td>
                                             <td>kavindu@gmail.com</td>
                                             <td>0775431234</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
+                                             <td>
                                             <button class="button12 button123" type="button">View Profile</button>
                                             </td>
                                             
@@ -159,8 +156,7 @@
                                             <td>Sasini De Silva</td>
                                             <td>sasinidesilva@gmail.com</td>
                                             <td>0786543456</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
+                                             <td>
                                             <button class="button12 button123" type="button">View Profile</button>
                                             </td>
                                             
@@ -171,8 +167,7 @@
                                             <td>Kaveesha Jayakodi</td>
                                             <td>kaveeshajayakodi@gmail.com</td>
                                             <td>0723456789</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
+                                             <td>
                                             <button class="button12 button123" type="button">View Profile</button>
                                             </td>
                                             
@@ -183,8 +178,7 @@
                                             <td>Ahinsa Dedunu</td>
                                             <td>ahinsadedunu@gmail.com</td>
                                             <td>0761235678</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
+                                             <td>
                                             <button class="button12 button123" type="button">View Profile</button>
                                             </td>
                                             

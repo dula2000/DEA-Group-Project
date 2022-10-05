@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%-- <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
@@ -123,18 +124,18 @@ table.table td .add {
 
 
  <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <!-- Navbar Brand-->
+            <!-- Navbar Brand -->
             <a class="navbar-brand ps-3" href="index.html">Phoenix Airline</a>
-            <!-- Sidebar Toggle-->
+            <!-- Sidebar Toggle
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
-            <!-- Navbar Search-->
+            <!-- Navbar Search -->
             <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
                 <div class="input-group">
                     <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
                     <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
                 </div>
             </form>
-            <!-- Navbar-->
+            <!-- Navbar  -->
             <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
@@ -186,7 +187,7 @@ table.table td .add {
             </div>
            
             
-<!--  
+<!-- 
    <nav>
        <div class=logo-name>
            <div class="logo-image">
@@ -201,7 +202,7 @@ table.table td .add {
                  <i class="uil uil-estate"></i>
                  <span class="link-name">Dashboard</span>
              </a></li>
-              <li><a href="SD1User.jsp
+              <li><a href="#
               ">
                  <i class="uil uil-house-user"></i>
                  <span class="link-name">User Dashboard</span>
@@ -225,7 +226,7 @@ table.table td .add {
          </ul>
          
        </div>    
-   </nav>	-->
+   </nav>  -->	
    <script>
 $(document).ready(function(){
 	$('[data-toggle="tooltip"]').tooltip();
@@ -439,6 +440,5 @@ $(document).ready(function(){
 
  
 
-   
 </body>
-</html>
+</html> --%>

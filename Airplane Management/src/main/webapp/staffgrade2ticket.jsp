@@ -9,9 +9,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>User Dashboard </title>
+        <title>Tickets</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="stylesS1.css" rel="stylesheet" type="text/css" />
+        <link href="ticketcss.css" rel="stylesheet"  />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
@@ -19,7 +19,7 @@
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="index.html">Phoenix Airline</a>
             <!-- Sidebar Toggle-->
-            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
             <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
                 <div class="input-group">
@@ -47,7 +47,7 @@
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading"></div>
                           
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <a class="nav-link collapsed" href="SD1User.jsp" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                                 User Dashboard
                                 <div class="sb-sidenav-collapse-arrow"></div>
@@ -68,51 +68,39 @@
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                      StaffGrade1
+                      StaffGrade2
                     </div>
                 </nav>
             </div>
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">User Dashboard</h1>
+                        <h1 class="mt-4">Tickets</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
                       
                         <div class="row">
+                           
                             <div class="col-xl-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-area me-1"></i>
-                                       No. of sessions takes by Users
-                                    </div>
-                                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="card mb-4">
-                                    <div class="card-header">
-                                        <i class="fas fa-chart-bar me-1"></i>
-                                       No. Of Users
-                                    </div>
-                                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
-                                </div>
+                              
                             </div>
                         </div>
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
-                              Users
+                              Tickets
                             </div>
                             <div class="card-body">
-                                <table id="datatablesSimple">
+                                <table class="table1" id="datatablesSimple">
                                     <thead>
                                         <tr>
                                             <th>UID</th>
-                                            <th>Name</th>
-                                            <th>Email</th>
-                                            <th>Mobile Number</th>
+                                            <th>Ticket ID</th>
+                                            <th>Flight ID</th>
+                                            <th>Gate</th>
+                                            <th>Seat</th>
+                                            <th>Date</th>
                                             <th></th>
                                             
                                         </tr>
@@ -121,71 +109,83 @@
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td>Dulanja De Silva</td>
-                                            <td>dulanjadilshan@gmail.com</td>
-                                            <td>0701013986</td>
-                                            <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                            <td><a href="#">T0001</a></td>
+                                            <td>F001</td>
+                                            <td>A010</td>
+                                             <td>PHA001</td>
+                                              <td>08/10/2022</td>
+                                           <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td>Umaya Weerasinghe</td>
-                                            <td>umaya@gmail.com</td>
-                                            <td>0712354321</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                             <td><a href="#">T0002</a></td>
+                                            <td>F002</td>
+                                            <td>B010</td>
+                                             <td>PHA002</td>
+                                              <td>08/10/2022</td>
+                                            <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td>Kavindu Jayalal</td>
-                                            <td>kavindu@gmail.com</td>
-                                            <td>0775431234</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                            <td><a href="#">T0003</a></td>
+                                            <td>F003</td>
+                                            <td>A020</td>
+                                             <td>PHA003</td>
+                                              <td>08/10/2022</td>
+                                            <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                             
                                         </tr>
                                         <tr>
                                             <td>4</td>
-                                            <td>Sasini De Silva</td>
-                                            <td>sasinidesilva@gmail.com</td>
-                                            <td>0786543456</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                             <td><a href="#">T0004</a></td>
+                                            <td>F004</td>
+                                            <td>B030</td>
+                                             <td>PHA004</td>
+                                              <td>08/10/2022</td>
+                                           <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                             
                                         </tr>
                                         <tr>
                                             <td>5</td>
-                                            <td>Kaveesha Jayakodi</td>
-                                            <td>kaveeshajayakodi@gmail.com</td>
-                                            <td>0723456789</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                             <td><a href="#">T0005</a></td>
+                                            <td>F005</td>
+                                            <td>A030</td>
+                                             <td>PHA005</td>
+                                              <td>08/10/2022</td>
+                                           <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                             
                                         </tr>
                                         <tr>
                                             <td>6</td>
-                                            <td>Ahinsa Dedunu</td>
-                                            <td>ahinsadedunu@gmail.com</td>
-                                            <td>0761235678</td>
-                                             <td><button class="button12 button1" type="button">Block</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                            <button class="button12 button123" type="button">View Profile</button>
+                                            <td><a href="#">T0006</a></td>
+                                            <td>F006</td>
+                                            <td>B030</td>
+                                             <td>PHA006</td>
+                                              <td>08/10/2022</td>
+                                             <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                             

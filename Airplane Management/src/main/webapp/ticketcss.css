@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - SB Admin v7.0.5 (https://startbootstrap.com/template/sb-admin)
@@ -89,21 +91,27 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.table1{
+	 border-collapse: collapse;
+  width: 100%;
+   border: 2px solid black;
+}
+
 .button12{
 	  border: none;
   color: white;
-  padding: 2px 15px;
+  padding: 5px 0px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline-brgb(0, 128, 64);  
   font-size: 15px;
-  margin: 4px 10px;
+  margin: 10px  20px;
   cursor: pointer;
   background-color:#3f51b5 ;
 }
 .button123{
-	padding:2px 30px;
-	margin-left:50px;
+	padding:2px 10px;
+	margin-left:30px;
 	
 }
 
@@ -343,7 +351,7 @@ tfoot,
 tr,
 td,
 th {
-  border-color: inherit;
+  border-collapse: collapse;
   border-style: solid;
   border-width: 0;
 }
@@ -1993,7 +2001,7 @@ progress {
 .table > :not(caption) > * > *, .dataTable-table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
   background-color: var(--bs-table-bg);
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
   box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
 .table > tbody, .dataTable-table > tbody {
@@ -4546,19 +4554,20 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 0;
+  min-width: 0px;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #ffffff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: 5px solid #000000;;
+  border-radius: 1rem;
+ 
 }
 .card > hr {
   margin-right: 0;
   margin-left: 0;
 }
 .card > .list-group {
-  border-top: inherit;
+  border-top: 0;
   border-bottom: inherit;
 }
 .card > .list-group:first-child {
@@ -4578,7 +4587,7 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 2rem 2rem;
 }
 
 .card-title {
@@ -4611,7 +4620,7 @@ textarea.form-control-lg {
 .card-footer {
   padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 2px solid rgba(0, 0, 0, 0.125);
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -11634,7 +11643,7 @@ body {
 
 /* TABLE */
 .dataTable-table {
-  border-collapse: collapse;
+
 }
 
 .dataTable-table > tbody > tr > td,
@@ -11644,13 +11653,14 @@ body {
 .dataTable-table > thead > tr > td,
 .dataTable-table > thead > tr > th {
   vertical-align: top;
-  padding: 0.5rem 0.5rem;
+  padding: 0.2rem 0.2rem;
+  width:10px;
 }
 
 .dataTable-table > thead > tr > th {
   vertical-align: bottom;
-  text-align: left;
-  border-bottom: none;
+  
+  
 }
 
 .dataTable-table > tfoot > tr > th {
