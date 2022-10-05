@@ -11,7 +11,7 @@
         <meta name="author" content="" />
         <title>Flights</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
-        <link href="styleS1flight.css" rel="stylesheet"  />
+        <link href="flightcss.css" rel="stylesheet"  />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
@@ -88,7 +88,7 @@
                                        
                                        Flight World Map
                                     </div>
-                                   <img src="images/fliight image2.jpg" style="width:610px;height:320px;">
+                                   <img src="images/fliight image2.jpg" style="width:600px;height:320px;">
 
                                 </div>
                             </div>
@@ -110,15 +110,15 @@
                               <button type="button" style="margin-left:850px;  background-color:#d50000;"><b> + Add New</b> </button>                    
                             </div>
                             <div class="card-body">
-                                <table  id="datatablesSimple">
-                                    <thead >
-                                        <tr >
-                                            <th>FlightID</th>
-                                            <th>From</th>
-                                            <th>To</th>
-                                            <th>No. of Seats</th>
-                                            <th>Chief Pilot Name</th>
-                                            
+                                <table class="table1" id="datatablesSimple">
+                                    <thead>
+                                        <tr style=" column-width: 10px;" >
+                                            <th class="aa" >FlightID</th>
+                                            <th class="aaaa">From</th>
+                                            <th class="aaaa">To</th>
+                                            <th class="aa" >No. of Seats</th>
+                                            <th class="aa">Chief Pilot Name</th>
+                                            <th></th>
                                         </tr>
                                     </thead>
                                    
