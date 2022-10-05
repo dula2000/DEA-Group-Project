@@ -117,7 +117,7 @@
                                             <th class="aaaa">From</th>
                                             <th class="aaaa">To</th>
                                             <th class="aa" >No. of Seats</th>
-                                            <th class="aa">Chief Pilot Name</th>
+                                            <th class="aaaa">Chief Pilot Name</th>
                                             <th></th>
                                         </tr>
                                     </thead>

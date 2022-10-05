@@ -68,7 +68,7 @@
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">Logged in as:</div>
-                      StaffGrade1
+                      StaffGrade2
                     </div>
                 </nav>
             </div>
@@ -114,9 +114,9 @@
                                             <td>A010</td>
                                              <td>PHA001</td>
                                               <td>08/10/2022</td>
-                                            <td><button class="button12 button1" type="button">Delete</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                            
+                                           <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                         </tr>
@@ -127,9 +127,9 @@
                                             <td>B010</td>
                                              <td>PHA002</td>
                                               <td>08/10/2022</td>
-                                             <td><button class="button12 button1" type="button">Delete</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                         
+                                            <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                
@@ -141,10 +141,9 @@
                                             <td>A020</td>
                                              <td>PHA003</td>
                                               <td>08/10/2022</td>
-                                             <td><button class="button12 button1" type="button">Delete</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                          
-                                            
+                                            <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                             
@@ -156,9 +155,9 @@
                                             <td>B030</td>
                                              <td>PHA004</td>
                                               <td>08/10/2022</td>
-                                             <td><button class="button12 button1" type="button">Delete</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                            
+                                           <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                             
@@ -170,9 +169,9 @@
                                             <td>A030</td>
                                              <td>PHA005</td>
                                               <td>08/10/2022</td>
-                                             <td><button class="button12 button1" type="button">Delete</button>
-                                            <button class="button12 button1" type="button">Update</button>
-                                          
+                                           <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
+                                           
                                             </td>
                                             
                                             
@@ -184,8 +183,8 @@
                                             <td>B030</td>
                                              <td>PHA006</td>
                                               <td>08/10/2022</td>
-                                             <td><button class="button12 button1" type="button">Delete</button>
-                                            <button class="button12 button1" type="button">Update</button>
+                                             <td>
+                                            <button class="button12 button1" type="button">View Full Info</button>
                                            
                                             </td>
                                             
