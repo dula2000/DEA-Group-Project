@@ -4547,11 +4547,11 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-width: 10px;
+  min-width: 0px;
   word-wrap: break-word;
-  background-color: #004080;
+  background-color: #ffffff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 3px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.5rem;
  
 }
@@ -4613,7 +4613,7 @@ textarea.form-control-lg {
 .card-footer {
   padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 2px solid rgba(0, 0, 0, 0.125);
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -11652,7 +11652,7 @@ body {
 
 .dataTable-table > thead > tr > th {
   vertical-align: bottom;
-  text-align: center;
+  
   border-bottom: none;
 }
 
