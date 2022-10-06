@@ -65,7 +65,7 @@
                     
                     <a href="SD1User.jsp" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Grade 1 staff Dashboard</a>
                     <a href="staffgrade2user.jsp" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Grade 2 staff Dashboard</a>
-                    
+                    <a href="table.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Approval</a>
                    
         
                 </div>
