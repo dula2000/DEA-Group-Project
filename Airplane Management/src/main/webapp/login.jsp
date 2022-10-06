@@ -33,6 +33,7 @@
 						</figure>
 						<a href="registration.jsp" class="signup-image-link">Create an
 							account</a>
+						<a href="stafflogin.jsp" class="signup-image-link">Login as Staff</a>
 					</div>
 
 					<div class="signin-form">
