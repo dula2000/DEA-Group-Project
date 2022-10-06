@@ -386,7 +386,7 @@ p {
 }
 
 
-
+/*
 .services {
 	margin-top: 100px;
 }
@@ -397,6 +397,7 @@ p {
 	padding: 60px 30px 20px 30px;
 	text-align: center;
 	transition: all 0.5s;
+
 }
 
 .service-item h4 {
@@ -417,8 +418,13 @@ p {
 	text-align: center;
 }
 
+.service-item:hover {
+	color: #121212;
+	background-color: #ffe165;
+}
+
 .first-service .service-icon {
-	background-image: url(../img/service-icon-01.png);
+	background-image:url(../img/latest1.jpg);
 	transition: all 0.5s;
 }
 
@@ -432,11 +438,6 @@ p {
 	transition: all 0.5s;
 }
 
-.service-item:hover {
-	color: #121212;
-	background-color: #ffe165;
-}
-
 .first-service:hover .service-icon {
 	background-image: url(../img/service-icon-01.1.png);
 }
@@ -448,10 +449,42 @@ p {
 
 .third-service:hover .service-icon {
 	background-image: url(../img/service-icon-03.3.png);
+}*/
+
+.latest{
+	margin-top: 100px;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
+.row1{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
 
+.latest-col{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+}
 
+.latest-col img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.latest-col p{
+	padding: 0;
+}
+
+.latest-col h4{
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+}
 
 #recommended-hotel {
 	margin-top: 100px;
