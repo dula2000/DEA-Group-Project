@@ -37,7 +37,7 @@
 
 					<div class="signin-form">
 						<h2 class="form-title">Sign In</h2>
-						<form method="post" action="login" class="register-form"
+						<form method="post" action="llogin" class="register-form"
 							id="login-form">
 							<div class="form-group">
 								<label for="username"><i
