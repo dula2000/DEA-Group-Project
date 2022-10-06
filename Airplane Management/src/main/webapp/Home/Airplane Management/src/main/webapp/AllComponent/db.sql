@@ -1,1 +1,0 @@
-SELECT * FROM `registration` WHERE (`registration`.`UserId` = 1) OR (`registration`.`UserId` = 13) OR (`registration`.`UserId` = 14) OR (`registration`.`UserId` = 16) OR (`registration`.`UserId` = 19) OR (`registration`.`UserId` = 20) OR (`registration`.`UserId` = 21)   

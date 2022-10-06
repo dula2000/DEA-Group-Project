@@ -1,8 +1,9 @@
-<!DOCTYPE html>
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
-<title></title>
+<title>Ticket</title>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
@@ -100,7 +101,7 @@
 <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
 <tr>
 <td class="pad" style="padding-left:25px;width:100%;padding-right:0px;padding-top:5px;padding-bottom:5px;">
-<div align="left" class="alignment" style="line-height:10px"><img alt="Alternate text" src="Home/Ticket Details/images/logo.jpeg" style="display: block; height: auto; border: 0; width: 105px; max-width: 100%;" title="Alternate text" width="105"/></div>
+<div align="left" class="alignment" style="line-height:10px"><img alt="Alternate text" src="Home/Ticket details/images/logo.jpeg" style="display: block; height: auto; border: 0; width: 105px; max-width: 100%;" title="Alternate text" width="105"/></div>
 </td>
 </tr>
 </table>
@@ -111,9 +112,9 @@
 <td class="pad" style="padding-bottom:15px;padding-left:10px;padding-right:10px;padding-top:15px;">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
-<p style="margin: 0; text-align: right; mso-line-height-alt: 14.399999999999999px;">James Brown</p>
-<p style="margin: 0; text-align: right; mso-line-height-alt: 14.399999999999999px;">Member Nr. <span style="color:#0b1560;"><strong>688969807</strong></span> | Level <span style="color:#0b1560;"><strong>Basic</strong></span></p>
-<p style="margin: 0; text-align: right; mso-line-height-alt: 14.399999999999999px;">Points <strong><span style="color:#0b1560;">2000</span></strong></p>
+<p style="margin: 0; text-align: right; mso-line-height-alt: 14.399999999999999px;">Dulanja De Silva</p>
+<p style="margin: 0; text-align: right; mso-line-height-alt: 14.399999999999999px;">UserId <span style="color:#0b1560;"><strong>1</strong></span> |<span style="color:#0b1560;"><strong></strong></span></p>
+
 </div>
 </div>
 </td>
@@ -138,7 +139,7 @@
 <table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
-<div align="center" class="alignment" style="line-height:10px"><img alt="Alternate text" class="big" src="Home/Ticket Details/images/air background.jpg" style="display: block; height: auto; border: 0; width: 700px; max-width: 100%;" title="Alternate text" width="700"/></div>
+<div align="center" class="alignment" style="line-height:10px"><img alt="Alternate text" class="big" src="Home/Ticket details/images/air background.jpg" style="display: block; height: auto; border: 0; width: 700px; max-width: 100%;" title="Alternate text" width="700"/></div>
 </td>
 </tr>
 </table>
@@ -163,7 +164,7 @@
 <td class="pad" style="padding-bottom:20px;padding-left:10px;padding-right:10px;padding-top:25px;">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #0b1560; line-height: 1.2;">
-<p style="margin: 0; font-size: 16px; text-align: center; mso-line-height-alt: 19.2px;"><span style="font-size:42px;"><strong>HI JAMES</strong></span></p>
+<p style="margin: 0; font-size: 16px; text-align: center; mso-line-height-alt: 19.2px;"><span style="font-size:42px;"><strong>HI DULANJA</strong></span></p>
 </div>
 </div>
 </td>
@@ -210,7 +211,7 @@
 <td class="pad" style="padding-bottom:55px;padding-left:30px;padding-right:30px;padding-top:10px;">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: 18px; color: #555555; line-height: 1.5;">
-<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 22.5px;"><span style="font-size:15px;">Your first flight from <span style="color:#800080;"><strong>QHNQO7</strong></span> to <span style="color:#0b1560;"><strong>AY1416</strong></span> departs from <span style="color:#0b1560;"><strong>Frankfurt</strong></span> at <span style="color:#0b1560;"><strong>19:25</strong></span></span></p>
+<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 22.5px;"><span style="font-size:15px;">Your first flight from <span style="color:#800080;"><strong>Sri Lanka</strong></span> to <span style="color:#0b1560;"><strong>HongKong</strong></span> departs from <span style="color:#0b1560;"><strong>Sri Lanka</strong></span> at <span style="color:#0b1560;"><strong>19:25</strong></span></span></p>
 </div>
 </div>
 </td>
@@ -259,7 +260,7 @@
 <td class="pad" style="padding-bottom:5px;padding-left:10px;padding-right:10px;padding-top:5px;">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
-<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;"><strong><span style="font-size:18px;">04.01.22</span></strong></span></p>
+<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;"><strong><span style="font-size:18px;">08.10.22</span></strong></span></p>
 </div>
 </div>
 </td>
@@ -270,7 +271,7 @@
 <td class="pad" style="padding-bottom:5px;padding-left:10px;padding-right:10px;padding-top:15px;">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
-<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;font-size:16px;"><strong><span style="">Frankfurt</span></strong></span></p>
+<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;font-size:16px;"><strong><span style="">CIBA</span></strong></span></p>
 </div>
 </div>
 </td>
@@ -281,7 +282,7 @@
 <td class="pad" style="padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:5px;">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
-<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;font-size:14px;"><span style="">Frankfurt (FRA)</span></span></p>
+<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;font-size:14px;"><span style="">Katunayake (SL)</span></span></p>
 </div>
 </div>
 </td>
@@ -294,7 +295,7 @@
 <table border="0" cellpadding="0" cellspacing="0" class="image_block block-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-bottom:40px;">
-<div align="center" class="alignment" style="line-height:10px"><img alt="Alternate text" src="Home/Ticket Details/images/icons8-airplane-mode-on-50_1_.png" style="display: block; height: auto; border: 0; width: 50px; max-width: 100%;" title="Alternate text" width="50"/></div>
+<div align="center" class="alignment" style="line-height:10px"><img alt="Alternate text" src="Home/Ticket details/images/icons8-airplane-mode-on-50_1_.png" style="display: block; height: auto; border: 0; width: 50px; max-width: 100%;" title="Alternate text" width="50"/></div>
 </td>
 </tr>
 </table>
@@ -327,7 +328,7 @@
 <td class="pad" style="padding-bottom:5px;padding-left:10px;padding-right:10px;padding-top:5px;">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
-<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;"><strong><span style="font-size:18px;">04.01.22</span></strong></span></p>
+<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;"><strong><span style="font-size:18px;">08.10.22</span></strong></span></p>
 </div>
 </div>
 </td>
@@ -338,7 +339,7 @@
 <td class="pad" style="padding-bottom:5px;padding-left:10px;padding-right:10px;padding-top:15px;">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
-<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;font-size:16px;"><strong><span style="">Helsinki</span></strong></span></p>
+<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;font-size:16px;"><strong><span style="">Chek Lap Kok Airport</span></strong></span></p>
 </div>
 </div>
 </td>
@@ -349,7 +350,7 @@
 <td class="pad" style="padding-bottom:10px;padding-left:10px;padding-right:10px;padding-top:5px;">
 <div style="font-family: sans-serif">
 <div class="" style="font-size: 12px; mso-line-height-alt: 14.399999999999999px; color: #555555; line-height: 1.2; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;">
-<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;font-size:14px;"><span style="">Helsinki (HEL)</span></span></p>
+<p style="margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;"><span style="color:#000000;font-size:14px;"><span style="">Hong Kong</span></span></p>
 </div>
 </div>
 </td>
@@ -683,7 +684,7 @@
 <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:5px;padding-bottom:5px;">
-<div align="center" class="alignment" style="line-height:10px"><img alt="I'm an image" class="fullMobileWidth" src="Home/Ticket Details/images/Left_image_1.png" style="display: block; height: auto; border: 0; width: 175px; max-width: 100%;" title="I'm an image" width="175"/></div>
+<div align="center" class="alignment" style="line-height:10px"><img alt="I'm an image" class="fullMobileWidth" src="Home/Ticket details/images/Left_image_1.png" style="display: block; height: auto; border: 0; width: 175px; max-width: 100%;" title="I'm an image" width="175"/></div>
 </td>
 </tr>
 </table>
@@ -769,7 +770,7 @@
 <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:5px;padding-bottom:5px;">
-<div align="center" class="alignment" style="line-height:10px"><img alt="I'm an image" class="fullMobileWidth" src="Home/Ticket Details/images/Image_left_2.png" style="display: block; height: auto; border: 0; width: 175px; max-width: 100%;" title="I'm an image" width="175"/></div>
+<div align="center" class="alignment" style="line-height:10px"><img alt="I'm an image" class="fullMobileWidth" src="Home/Ticket details/images/Image_left_2.png" style="display: block; height: auto; border: 0; width: 175px; max-width: 100%;" title="I'm an image" width="175"/></div>
 </td>
 </tr>
 </table>
@@ -855,7 +856,7 @@
 <table border="0" cellpadding="0" cellspacing="0" class="image_block block-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;padding-top:5px;padding-bottom:5px;">
-<div align="center" class="alignment" style="line-height:10px"><img alt="I'm an image" class="fullMobileWidth" src="Home/Ticket Details/images/left_Image_3.png" style="display: block; height: auto; border: 0; width: 175px; max-width: 100%;" title="I'm an image" width="175"/></div>
+<div align="center" class="alignment" style="line-height:10px"><img alt="I'm an image" class="fullMobileWidth" src="Home/Ticket details/images/left_Image_3.png" style="display: block; height: auto; border: 0; width: 175px; max-width: 100%;" title="I'm an image" width="175"/></div>
 </td>
 </tr>
 </table>
