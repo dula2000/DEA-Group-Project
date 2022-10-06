@@ -48,7 +48,7 @@ public class login extends jakarta.servlet.http.HttpServlet {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dea?useSSL=false","root","");
-			PreparedStatement ppt = con.prepareStatement("select * from registration where UserName=? and Password=?");
+			PreparedStatement ppt = con.prepareStatement("select * from registration where UserName=?  Password= ?");
 			ppt.setString(1, UserName);
 			ppt.setString(2, Password);
 			

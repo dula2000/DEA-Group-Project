@@ -14,6 +14,6 @@
     	 response.sendRedirect("login.jsp");
      }
     %>
-    
+    <h1>hello</h1>
 </body>
 </html>
