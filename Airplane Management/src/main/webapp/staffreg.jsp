@@ -60,7 +60,7 @@
 									
 							</div>
 							<div class="form-group>
-							<div class="category"><left>
+							<div class="category"><center>
 							    <input type="radio" name="grade" value="Grade1"required>Grade I
 							    <input type="radio" name="grade" value="Grade2"required>Grade II
 							</left>
