@@ -2,6 +2,7 @@ package staffregistration;
 
 public class staff {
 	
+	private int id;
 	private String name;
 	private String email;
 	private String nic;
@@ -10,12 +11,16 @@ public class staff {
 	private String contact;
 	public staff(String name, String email, String nic, String username, String password, String contact) {
 		
+		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.nic = nic;
 		this.username = username;
 		this.password = password;
 		this.contact = contact;
+	}
+	public int getID() {
+		return id;
 	}
 	public String getName() {
 		return name;
