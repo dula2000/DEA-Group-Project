@@ -38,7 +38,7 @@ public class FlightInsertServ2 extends HttpServlet {
 		//calling insertcustomer() Methode
 				boolean isTrue;
 				
-				isTrue = FlightDBUtil2.insertflights(FLIGHTID,START,END,NO_SEATS,PILOT);
+				isTrue = flightDBUtil.insertflights(FLIGHTID,START,END,NO_SEATS,PILOT);
 				
 				if(isTrue == true) {
 					out.println("<script type = 'text/javascript'>");
