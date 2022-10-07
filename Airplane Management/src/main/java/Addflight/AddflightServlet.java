@@ -19,7 +19,7 @@ public class FlightInsertServ2 extends HttpServlet {
 		
 		try {
 		
-		//Getting Parametars from staff.jsp......
+		
 		PrintWriter out = response.getWriter();
 		
 		Integer FLIGHT_ID = Integer.parseInt(request.getParameter("Fid"));
@@ -30,8 +30,10 @@ public class FlightInsertServ2 extends HttpServlet {
 		
 		String  NO_SEATS = request.getParameter("ns");
 		
-		String  PILOT = request.getParameter("plt")
-		
+		String  PILOT = request.getParameter("plt");
+			'
+				'
+				
 
 		//calling insertcustomer() Methode
 				boolean isTrue;
