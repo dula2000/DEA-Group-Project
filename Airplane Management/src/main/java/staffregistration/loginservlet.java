@@ -34,7 +34,7 @@ public class LoginGrade1Serv extends HttpServlet {
 		boolean isTrue;
 		
 		//Pass the User's username and password to the CustomerDBUtil.java > validate() method and assign boolean value to "isTrue" variable
-		isTrue = StaffDBUtil.validateGrade1(USERNAME , PASSWORD, GRADE , REPEATPASSWORD ); //ok
+		isTrue = staffBDButil.validateGrade1(USERNAME , PASSWORD, GRADE , REPEATPASSWORD ); //ok
 		
 		
 		if (isTrue == true) {
@@ -43,17 +43,17 @@ public class LoginGrade1Serv extends HttpServlet {
 			
 			if(GRADE.equals("Grade 1" ) ) 
 			{
-				List<Grade1> grade1Info = StaffBDBUtil.getGrade1(USERNAME,PASSWORD);
+				List<Grade1> grade1Info = staffBDButil.getGrade1(USERNAME,PASSWORD);
 				request.setAttribute("grade1Info", grade1Info);
-				RequestDispatcher dis = request.getRequestDispatcher("staffGradeIDashboard.jsp");
+				RequestDispatcher dis = request.getRequestDispatcher("SG1dashboard.jsp");
 				dis.forward(request, response);
 				return;
 			}
 			else if(GRADE.equals("Grade 2") ) 
 			{
-				List<Grade1> grade1Info = StaffDBUtil.getGrade1(USERNAME,PASSWORD);
+				List<Grade1> grade1Info = staffBDButil.getGrade1(USERNAME,PASSWORD);
 				request.setAttribute("grade1Info", grade1Info);
-				RequestDispatcher dis = request.getRequestDispatcher("StaffGradeIIDashboard.jsp");
+				RequestDispatcher dis = request.getRequestDispatcher("staffgrade2user.jsp");
 				dis.forward(request, response);
 				return;
 			}
