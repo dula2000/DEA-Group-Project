@@ -12,27 +12,64 @@ import java.util.List;
 //import javax.servlet.RequestDispatcher;
 
 
-public class loginservlet extends HttpServlet {
+public class LoginGrade1Serv extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+       
+    public LoginGrade1Serv() {
+        super();
+    }
 
-	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-		String username = request.getParameter("username");
-		String password = request.getParameter("password");
-		try {
 		
-		List<staff> staffDetails = staffBDButill.validate(username, password);
-		request.setAttribute(password, staffDetails);
+		PrintWriter out = response.getWriter();
+		response.setContentType("text/html");
 		
-		}
-		catch (Exception e){
-			e.printStackTrace();
+		//getting Username and Password fron Login page...
+		String USERNAME = request.getParameter("Username");   
+		String PASSWORD = request.getParameter("Password");
+		String GRADE = request.getParameter("grade");
+		String CONFIRMPASSWORD = request.getParameter("RepeatPassword");
+		
+		
+		boolean isTrue;
+		
+		//Pass the User's username and password to the CustomerDBUtil.java > validate() method and assign boolean value to "isTrue" variable
+		isTrue = StaffDBUtil.validateGrade1(USERNAME , PASSWORD, GRADE , REPEATPASSWORD ); //ok
+		
+		
+		if (isTrue == true) {
+			
+			
+			
+			if(GRADE.equals("Grade 1" ) ) 
+			{
+				List<Grade1> grade1Info = StaffBDBUtil.getGrade1(USERNAME,PASSWORD);
+				request.setAttribute("grade1Info", grade1Info);
+				RequestDispatcher dis = request.getRequestDispatcher("staffGradeIDashboard.jsp");
+				dis.forward(request, response);
+				return;
+			}
+			else if(GRADE.equals("Grade 2") ) 
+			{
+				List<Grade1> grade1Info = StaffDBUtil.getGrade1(USERNAME,PASSWORD);
+				request.setAttribute("grade1Info", grade1Info);
+				RequestDispatcher dis = request.getRequestDispatcher("StaffGradeIIDashboard.jsp");
+				dis.forward(request, response);
+				return;
+			}
+			
 			
 		}
 		
-		RequestDispatcher dis = (RequestDispatcher) request.getRequestDispatcher("SD1User.jsp");
-		dis.forward(request, response);
+		else
+		{
+
+			out.println("<script type = 'text/javascript'>");
+			out.println("alert('Wrong Details. Try again');");
+			out.println("location = 'loginstaff.jsp'");
+			out.println("</script>");
+		
 	}
 
+}
 }
