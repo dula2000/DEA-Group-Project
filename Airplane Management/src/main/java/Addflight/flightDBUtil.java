@@ -1,4 +1,4 @@
-package Addflights;
+package Addflight;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
