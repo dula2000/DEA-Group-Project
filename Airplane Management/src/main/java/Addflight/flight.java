@@ -1,20 +1,19 @@
 package Addflight;
 
-public class Flights2 {
+public class Flights {
 	private int FLIGHTID;
-	private String FROM;
-	private String DESTINATION;
-	private String PLANETYPE;
-	private String AVAILABLESEATS;
-	private String DATE;
-	private String TIME;
+	private String START;
+	private String END;
+	private String NO_SEATS;
+	private String PILOT;
 	
-	public Flights2(int fLIGHTID, String fROM, String dESTINATION, String pLANETYPE, String aVAILABLESEATS, String dATE,String tIME) 
+	
+	public Flights(int fLIGHTID, String sTART, String eND, String nO_SEATS, String pILOT,) 
 	{
 		
 		FLIGHTID = flightid;
 		START = start;
-		END = END;
+		END = end;
 		NO_SEATS = no_seats;
 		PILOT = pilot;
 		
