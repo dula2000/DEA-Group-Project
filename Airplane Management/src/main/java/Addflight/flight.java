@@ -8,7 +8,7 @@ public class Flights {
 	private String PILOT;
 	
 	
-	public Flights(int fLIGHTID, String sTART, String eND, String nO_SEATS, String pILOT,) 
+	public Flights(int fLIGHTID, String sTART, String eND, String nO_SEATS, String pILOT) 
 	{
 		
 		FLIGHTID = flightid;
