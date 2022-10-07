@@ -1,4 +1,4 @@
-package com.flights2;
+package Addflight;
 
 import java.io.IOException;
 import java.io.PrintWriter;
