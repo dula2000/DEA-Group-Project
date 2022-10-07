@@ -60,9 +60,9 @@
                       </select>
                 </div>
                 <div class="cards">
-                    <img src="mc.png" alt="">
-                    <img src="vi.png" alt="">
-                    <img src="pp.png" alt="">
+                    <img src="images/mc.png" alt="">
+                    <img src="images/vi.png" alt="">
+                    <img src="images/pp.png" alt="">
                 </div>
             </div>    
         </div>
