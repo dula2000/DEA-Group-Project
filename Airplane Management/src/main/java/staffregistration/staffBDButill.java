@@ -1,54 +1,126 @@
 package staffregistration;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class staffBDButill {
+import com.admin.DBConnect;
 
+public class StaffDBUtil {
 	
-	public static  List <staff> validate(String username,String password) {
-
-	ArrayList<staff> staff = new ArrayList<>();
+	private static boolean isSuccess = false;
+	private static Connection con = null;
+	private static Statement stmt = null;
+	private static ResultSet rs = null;
 	
-	//create db con
-	String url ="jdbc:mysql;//localhost;3306/Airline";
-	String user = "root"; 
-	String passwd ="";
-	
-	//validate
-	try {
+	public static Boolean insertgrade1( String NAME , String EMAIL , String NIC, String PASSWORD , String REPEATPASSWORD , String CONTACT, String GRADE, String STATUS ) {
 		
-		Class.forName("com.mysql.jdbc.Driver");
 		
-		Connection con = DriverManager.getConnection(url,user,passwd);
-		Statement stat =con.createStatement();
-		String sql ="select * from staff where username='"+username+"' and '"+password+"'";
-		ResultSet rs = stat.executeQuery(sql);
-		
-		if(rs.next()) {
-			int id =rs.getInt(1);
-			String name =rs.getString(2);
-			String email =rs.getString(3);
-			String nic =rs.getString(4);
-			String username1 =rs.getString(5);
-			String password1 =rs.getString(6);
-			String contact =rs.getString(7);
-			String staffstatus =rs.getString(8);
+		//Create Database Connection
+		try {
+			con = DBConnect.getConnection();
+		    stmt = con.createStatement();
+			String  sql = "insert into grade1 values (0 ,'"+NAME+"','"+EMAIL+"','"+NIC+"','"+PASSWORD+"','"+REPEATPASSWORD+"','"+CONTACT+"','"+GRADE+"', '"+STATUS+"' )";
+			int rs = stmt.executeUpdate(sql);
 			
-			staff s =new staff(id,name,email,nic,username1,password1,contact,staffstatus);
-			staff.add(s);
+			if(rs > 0) {
+				isSuccess = true;
+			} else {
+				isSuccess = false;
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
 		}
 		
+		return isSuccess;
 	}
-	catch(Exception e){
+	
+	
+//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+public static List< Grade1 > getGrade1(String USERNAME, String PASSWORD){
+		
+		//Creating object from ArrayList<User>
+		ArrayList< Grade1 > grade1 = new ArrayList<>();
+		
+		try {
+			
+			// Crating Database Connection
+			con = DBConnect.getConnection();
+			stmt = con.createStatement();
+			String sql = " select * from grade1 where username = '"+USERNAME+"'and password = '"+PASSWORD+"'";
+			rs = stmt.executeQuery(sql);
+			
+			//Checking user information from Database 1 by 1.... 
+			while (rs.next()) {
+				int sid =  rs.getInt(1);
+				String username = rs.getString(2);
+				String email = rs.getString(3);
+				String password = rs.getString(4);
+				String confirmpass = rs.getString(8);
+				String phone = rs.getString(5);
+				String nic = rs.getString(6);
+				String grade = rs.getString(7);
+				String status = rs.getString(9);
+				
+				
+				
+				//Sending parameters to User.java constructor..
+				Grade1 g1 = new Grade1( sid , username , email , password,confirmpass, phone , nic , grade, status );
+				
+				//pass the "usr" object to "user" object
+				grade1.add(g1);
+				
+			}
+			
+		} catch (Exception e ) {
+			
+		}
+		
+		return grade1;
+		}
+
+
+//\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+public static boolean validateGrade1(String USERNAME,String PASSWORD,String GRADE , String REPEATPASSWORD) {
+	
+	try {
+		
+		con = DBConnect.getConnection();
+		stmt = con.createStatement();
+		String sql = "select * from grade1 where (username = '"+USERNAME+"' and password='"+PASSWORD+"') and (grade = '"+GRADE+"' and confirmpass = '"+ REPEATPASSWORD +"')";
+				
+		rs = stmt.executeQuery(sql);
+		
+		if(rs.next()) {
+			
+			if(rs.getString(9).equals("false"))
+			{
+				isSuccess = true;
+			}
+			else
+			{
+				isSuccess = false;
+			}	
+			}	
+ else {
+			
+			isSuccess = false;
+		}
+		
+		
+	} catch (Exception e) {
 		e.printStackTrace();
 	}
-	return staff;
 	
-	}
-	
+	return isSuccess;
 }
+
+}
+
+
+
+
