@@ -8,8 +8,9 @@ public class staff {
 	private String nic;
 	private String username;
 	private String password;
+	private String repeatpassword;
 	private String contact;
-	public staff(String name, String email, String nic, String username, String password, String contact) {
+	public staff(int id, String name, String email, String nic, String username, String password,String repeatpassword, String contact) {
 		
 		this.id = id;
 		this.name = name;
@@ -17,6 +18,7 @@ public class staff {
 		this.nic = nic;
 		this.username = username;
 		this.password = password;
+		this.repeatpassword = repeatpassword;
 		this.contact = contact;
 	}
 	public int getID() {
@@ -40,6 +42,9 @@ public class staff {
 	
 	public String getPassword() {
 		return password;
+	}
+	public String getRepeatPassword() {
+		return repeatpassword;
 	}
 	
 	public String getContact() {
